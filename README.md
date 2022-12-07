@@ -2,6 +2,8 @@
 
 This project is to provide metadata and tools for medical classification and clinical coding.
 
+https://en.wikipedia.org/wiki/Medical_classification
+
 ### Planned content
 
 -   ICD-10
