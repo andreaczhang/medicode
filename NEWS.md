@@ -1,3 +1,3 @@
-# PACKAGE 2020.2.17
+# medicode 2020.2.17
 
 - Package is created

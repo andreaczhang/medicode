@@ -2,16 +2,16 @@
 #' @importFrom magrittr %>%
 .onAttach <- function(libname, pkgname) {
     version <- tryCatch(
-      utils::packageDescription("PACKAGE", fields = "Version"),
+      utils::packageDescription("medicode", fields = "Version"),
       warning = function(w){
         1
       }
     )
   
   packageStartupMessage(paste0(
-    "PACKAGE ",
+    "medicode ",
     version,
     "\n",
-    "https://docs.sykdomspulsen.no/PACKAGE/"
+    "https://docs.sykdomspulsen.no/medicode/"
   ))
 }
