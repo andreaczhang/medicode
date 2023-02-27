@@ -1,4 +1,4 @@
-#' @import data.table ggplot2
+#' @import data.table
 #' @importFrom magrittr %>%
 .onAttach <- function(libname, pkgname) {
     version <- tryCatch(
@@ -7,11 +7,9 @@
         1
       }
     )
-  
+
   packageStartupMessage(paste0(
     "medicode ",
-    version,
-    "\n",
-    "https://docs.sykdomspulsen.no/medicode/"
+    version
   ))
 }

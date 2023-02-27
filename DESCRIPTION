@@ -1,24 +1,20 @@
 Package: medicode
 Title: Medical Classification and Clincial Coding
-Version: 2022.12.7
+Version: 2023.2.27
 Authors@R: c(
-  person("Chi", "Zhang", email = "andreachizhang@yahoo.com", role = c("aut", "cre")),
-  person(given = "Folkehelseinstituttet", role = c("cph"))
+  person("Chi", "Zhang", email = "andreachizhang@yahoo.com", role = c("aut", "cre"))
   )
 Description: Medical classification and clinical coding used for research purposes.
 Depends: R (>= 3.3.0)
 License: MIT + file LICENSE
-URL: https://docs.sykdomspulsen.no/medicode/, https://github.com/sykdomspulsen-org/medicode
-BugReports: https://github.com/sykdomspulsen-org/medicode/issues
+URL: https://andreaczhang.github.io/medicode/, https://github.com/andreaczhang/medicode
+BugReports: https://github.com/andreaczhang/medicode/issues
 Encoding: UTF-8
 LazyData: true
 Imports: data.table,
-    magrittr,
-    ggplot2
+    magrittr
 Suggests: testthat,
     knitr,
-    rmarkdown,
-    rstudioapi,
-    glue
-RoxygenNote: 7.1.1
+    rmarkdown
+RoxygenNote: 7.2.3
 VignetteBuilder: knitr

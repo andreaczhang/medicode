@@ -4,12 +4,14 @@ This project is to provide metadata and tools for medical classification and cli
 
 https://en.wikipedia.org/wiki/Medical_classification
 
+So far the following code lists have been included: 
+
+* ICD-10 (English, Norwegian) 
+* European Shortlist for Cause of Death (English, Norwegian)
+
+
 ### Planned content
 
--   ICD-10
-
--   ICPC-2
-
--   European Shortlist for Cause of Death
-
--   Procedure codes (tbd)
+* Utility functions to match code range across different lists
+* ICPC-2 for primary care
+* Procedure codes (tbd)

@@ -1,0 +1,51 @@
+---
+title: "Introduction to medicode"
+author: "Chi Zhang"
+date: "2023-02-27"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to medicode}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Overview
+
+`medicode` is a utility tool that contains metadata for medical classification and clinical coding. 
+
+The motivation is two-fold: 
+
+* Standardization: in Norway, some systems (such as hospital electronic health record systems) have only **Norwegian coding and abbreviations**, which can be inconvenient to read for human researchers, and standardize in reports.
+* Reference: `medicode` provides a consistent way to extract corresponding code range, such as a list of **causes of death**. 
+
+## List of code for Cause of death
+
+```{r echo=TRUE}
+code_death <- medicode::cause_of_death
+head(code_death)
+```
+
+
+## ICD-10 code
+
+The English version ([source](https://www.cms.gov/medicare/coordination-benefits-recovery-overview/icd-code-lists))
+
+```{r echo=TRUE}
+head(medicode::icd10_en)
+```
+
+The Norwegian version ([source](https://www.ehelse.no/kodeverk-terminologi/kodeverket-icd-10-og-icd-11))
+
+```{r echo=TRUE}
+head(medicode::icd10_no)
+```
+
+
+
