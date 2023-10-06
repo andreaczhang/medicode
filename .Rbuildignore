@@ -14,5 +14,5 @@ _pkgdown.yml
 data-raw/*
 license.md
 ^\.github$
-docs/*
+^docs$
 pkgdown/*
