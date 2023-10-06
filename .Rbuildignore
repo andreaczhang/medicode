@@ -13,3 +13,6 @@ _pkgdown.yml
 ^CRAN-SUBMISSION$
 data-raw/*
 license.md
+^\.github$
+docs/*
+pkgdown/*

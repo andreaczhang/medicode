@@ -12,9 +12,12 @@ BugReports: https://github.com/andreaczhang/medicode/issues
 Encoding: UTF-8
 LazyData: true
 Imports: data.table,
-    magrittr
-Suggests: testthat,
+    magrittr, 
+    rlang
+Suggests: 
+    testthat (>= 3.0.0),
     knitr,
     rmarkdown
 RoxygenNote: 7.2.3
 VignetteBuilder: knitr
+Config/testthat/edition: 3
